@@ -1,0 +1,48 @@
+* {font-family: sans-serif;}
+table {border-collapse: collapse;}
+td, th {border: solid #333 1px;}
+ul {margin-block-end: 0px; margin-block-start: 0px; padding-inline-start: 1em;}
+
+.cell-loc, .difficulty-indicator {
+  color: #ffffff;
+  width: 2em; height: 2em;
+  text-align: center;
+}
+
+/* ROYGBIB
+.difficulty-0 {background-color: #000000;}
+.difficulty-1 {background-color: #990099;}
+.difficulty-2 {background-color: #000099;}
+.difficulty-3 {background-color: #009900;}
+.difficulty-4 {background-color: #999900;}
+.difficulty-5 {background-color: #bb7700;}
+.difficulty-6 {background-color: #990000;}
+*/
+
+/* Cycle */
+.difficulty-0 {background-color: #000;}
+.difficulty-1 {background-color: #00b;}
+.difficulty-2 {background-color: #099;}
+.difficulty-3 {background-color: #0b0;}
+.difficulty-4 {background-color: #990;}
+.difficulty-5 {background-color: #b00;}
+.difficulty-6 {background-color: #909;}
+
+.mission-data {
+  display: none;
+  position: absolute;
+  background-color: #ccc;
+  width: 600px;
+}
+.mission-data tr {width: 100%;}
+.mission-data td {width: 100%; padding: 5px;}
+.mission-data th {
+  min-width: 125px;
+  text-align: left; vertical-align: top;
+  padding: 5px;
+}
+
+.system-3ds {color: #d22;}
+.system-switch {color: #22d;}
+
+.spacer {height: 500px;}
